@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  background-color: pink;
+}
+
+.container header {
+  padding: 10vmin 0 0 0;
+  margin: 0 0 5vmin 0;
+}
+
+.container header h1, .container header p {
+  text-align: center;
+}
+
+.container header h1 {
+  font-size: 6vmin;
+}
+
+.container header p {
+  font-size: 3.5vmin;
+  font-style: italic;
+}
+
+.container form {
+  background-color: purple;
+  width: 90vmin;
+  height: 100%;
+  margin: 0 auto;
+  padding: 4vmin;
+  color: white;
+}
+
+.container form .form-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 0 4vmin 0;
+  font-size: 5vmin;
+}
+
+.container form .form-group .rb {
+  width: 2vmin;
+  height: 3vmin;
+}
+
+.container form .form-group .chk {
+  width: 2vmin;
+  height: 3vmin;
+}
+
+.container form .form-group button {
+  border-radius: 1vmin;
+  background-color: green;
+  color: white;
+  padding: 2vmin;
+  border: none;
+  font-size: 5vmin;
+}
+
+.container form .form-group input {
+  font-size: 4vmin;
+}
+
+.container form .form-group select {
+  font-size: 4vmin;
+}
+
+.container form .form-group textarea {
+  font-size: 4vmin;
+}
+/*# sourceMappingURL=styles.css.map */
